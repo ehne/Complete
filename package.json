@@ -1,5 +1,5 @@
 {
-  "name": "next-template",
+  "name": "complete",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,20 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.1.2",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@stacks/auth": "^1.0.0-beta.20",
+    "@stacks/connect": "^4.3.13",
+    "@stacks/profile": "^1.0.0-beta.20",
+    "@stacks/storage": "^1.0.0-beta.20",
+    "blockstack": "^21.1.1",
+    "framer-motion": "^3.1.4",
     "next": "^10.0.4",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-blockstack": "^0.6.10",
+    "react-dom": "^17.0.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
